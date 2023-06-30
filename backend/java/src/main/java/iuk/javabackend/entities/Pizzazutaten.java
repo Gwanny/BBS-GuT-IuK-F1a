@@ -11,7 +11,7 @@ public class Pizzazutaten {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id", nullable = false)
-    private Long id;
+    private int id;
 
     private int pizza;
     private int zutaten;
